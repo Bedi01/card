@@ -1,66 +1,33 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: hsl(47, 88%, 63%);
-  margin: 0;
-  font-family: "Figtree", sans-serif;
-}
-
-.card {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  max-width: 400px;
-}
-
-.card-content {
-  padding: 16px;
-  text-align: left;
-}
-
-.card-tag {
-  background-color: hsl(47, 88%, 63%);
-  color: #fff;
-  border-radius: 12px;
-  font-size: 14px;
-  padding: 4px 8px;
-  margin-bottom: 8px;
-  font-weight: 800;
-}
-
-.card-date,
-.card-description {
-  color: hsl(0, 0%, 50%);
-  font-size: 12px;
-  margin-bottom: 8px;
-  font-weight: 500;
-}
-
-.card-title {
-  color: hsl(0, 0%, 7%);
-  font-size: 24px;
-  margin: 0 0 8px 0;
-  font-weight: 800;
-}
-
-.card-author {
-  display: flex;
-  align-items: center;
-  margin-top: 16px;
-}
-
-.card-author img {
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  margin-right: 8px;
-}
-
-.card-author span {
-  color: hsl(0, 0%, 7%);
-  font-size: 14px;
-  font-weight: 500;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Card Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-image">
+        <img src="illustration-article.svg" alt="Card Image" />
+      </div>
+      <div class="card-content">
+        <span class="card-tag">Learning</span>
+        <span class="card-date">Published 21 Dec 2023</span>
+        <h5 class="card-title">HTML & CSS Foundations</h5>
+        <p class="card-description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="card-author">
+          <img src="image-avatar.webp" alt="Author Image" />
+          <span>Greg Hopper</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

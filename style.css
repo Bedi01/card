@@ -9,9 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+{
   box-sizing: inherit;
 }
 
@@ -21,7 +19,7 @@ body {
   box-shadow: 16px 16px 0px 0px rgb(0, 0, 0);
   overflow: hidden;
   width: 384px;
-  height: 522px;
+  height: 511px;
   border: 2px solid black;
   padding: 24px;
   box-sizing: border-box;
@@ -87,11 +85,10 @@ body {
 
 .card-description {
   color: grey;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-align: left;
   letter-spacing: 0.5px;
-  line-height: 25px;
 }
 
 .card-author {
